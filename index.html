@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>something</title>
+	<meta charset = "utf-8" /> <!--❌와같은 이모지가 안 보일땐 charset을 넣어주기 -->
+	<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+	<!--clock에서 시계 만들기-->
+	<div class="js-clock">
+		<h1>00:00:00</h1>
+	</div>
+	<!--form에서는 사용자의 이름 등 정보 저장-->
+	<form class = "js-form form">
+		<input type ="text" placeholder="What is your name?" />
+	</form>
+	<h4 class="js-greetings greetings"></h4>
+	<form class = "js-toDoform">
+		<input type = "text" placeholder="Write a to do" />
+	</form>
+	<!--to do 리스트 만들기-->
+	<ul class = "js-toDoList">
+	</ul>
+	<span class = "js-weather"></span>
+	<!--script src에서는 html과 js를 연동-->
+	<script src="clock.js"></script>
+	<script src="greeting.js"></script> <!--사용자의 이름을 기억하게한다-->
+	<script src="todo.js"></script>
+	<script src="bg.js"></script>
+	<script src="weather.js"></script>
+</body>
+
+</html>
